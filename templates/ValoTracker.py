@@ -5,7 +5,7 @@ from io import BytesIO
 from flask import Flask, render_template, request
 
 app = Flask(__name__, )
-app.secret_key = " 32l/jGv29)c\S "
+app.secret_key = "  "
 app = Flask(__name__, template_folder='templates')
 
 def login_apirequest(username, password, region):
