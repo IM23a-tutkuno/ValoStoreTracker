@@ -1,0 +1,83 @@
+        label {
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 30px;
+        margin: auto;
+        ;
+        }
+        .image-container {
+            display: grid;
+            justify-content: space-between;
+            overflow-x: auto;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        img {
+            float: left;
+            width:  100px;
+            height: 100px;
+            object-fit: cover;
+            display: grid;
+        }
+        .i2 {
+            grid-column: 2/3;
+            }
+        .round{
+            background-color: #fd4556;
+            box-shadow: 42px 42px 77px #932832, -42px -42px 77px #ff627a;
+            position: relative;
+            width: 1000px;
+            height: 500px;
+            top: 50%;
+            bottom: 25%;
+            margin: auto;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .center {
+            width: 80%;
+            text-align: center;
+            border-radius: 20px;
+            font-weight: bold;
+            letter-spacing: -1px;
+            line-height: 1;
+            font-size: 18px;
+            align-content: center;
+            text-align: right}
+        .submit {            width: 80%;
+            text-align: center;
+            border-radius: 20px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            line-height: 1;
+            font-size: 18px;
+        }
+        img { width: 100%; height: auto; opacity: 0.3; }
+        footer {
+            height: 100px;
+            position: absolute;
+            bottom: 0;
+        }
+        body {
+            background-image: url('/static/gradient.png');
+
+                h1 { color: #111;
+                    font-family: 'Helvetica Neue', sans-serif;
+                    font-size: 100px;
+                    font-weight: bold;
+                    letter-spacing: -1px;
+                    line-height: 1;
+                    text-align: center; };
+                h2 { color: #111;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 30px;
+                    font-weight: 300;
+                    line-height: 32px;
+                    margin: 0 0 72px;
+                    text-align: center;
+                }}
+        input[type="text"], input[type="password"] {
+            text-align: center;
+            }

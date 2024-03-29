@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body>
+    <h1>Valorant Store Checker</h1>
+    <div class="round">
+        <div class="center">
+            <form method="POST" action="/skins">
+                <div class ='image-container'>
+                    <img src="{{ link }}" alt="Image" class="image-container">
+                </div>
+                {% endfor %}
+            </form>
+        </div>
+    </div>
+        {% for skin in skins %}
+        <p>{{ skin }}</p>
+    {% endfor %}
+</body>
+</html>
